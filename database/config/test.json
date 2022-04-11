@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": {
+      "ENV": "DB_HOST"
+    },
+    "user": {
+      "ENV": "DB_USERNAME"
+    },
+    "password": {
+      "ENV": "DB_PASSWORD"
+    },
+    "database": {
+      "ENV": "DB_TEST"
+    },
+    "port": {
+      "ENV": "DB_PORT"
+    }
+  },
+  "sql-file": true
+}
